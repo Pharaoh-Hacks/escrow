@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Create Next.js app
+npx create-next-app@latest samkam
+
+# Navigate to the created directory
+cd samkam
