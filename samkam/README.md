@@ -19,3 +19,8 @@ bun dev
 install and run shadcn from ui.shadcn.com
 
 npx shadcn-ui@latest init
+
+## MUST intall
+
+git
+Tailwind CSS intellisense
