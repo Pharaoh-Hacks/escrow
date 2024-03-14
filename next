@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# Create Next.js app
+npx create-next-app@latest samkam || {
+  echo "Error: Failed to create Next.js app"
+  exit 1
+}
+
+# Check if the app was created successfully
+if [ ! -d "samkam" ]; then
+  echo "Error: Failed to create Next.js app"
+  exit 1
+fi
+
+# Install missing dependency
+npm install --save stream-browserify
+
+# Navigate to the created directory
+cd samkam

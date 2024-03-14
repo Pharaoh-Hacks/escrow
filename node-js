@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Download the Node.js setup script using curl
+curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+
+# Run the setup script
+sudo bash nodesource_setup.sh
+
+# Install Node.js and npm
+sudo apt-get install -y nodejs
+
+# Verify Node.js and npm installation
+node -v
+npm -v
