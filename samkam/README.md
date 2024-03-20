@@ -24,3 +24,18 @@ npx shadcn-ui@latest init
 
 git
 Tailwind CSS intellisense
+
+## Add Button
+
+npx shadcn-ui@latest add button
+
+## install Yarn
+
+npm install yarn
+
+## Install Icons as package
+
+npm add lucide-react 
+
+
+
