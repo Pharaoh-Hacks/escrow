@@ -37,5 +37,11 @@ npm install yarn
 
 npm add lucide-react 
 
+## Add Cart
+
+npx shadcn-ui@latest add sheet
+
+npx shadcn-ui@latest add separator
+
 
 
