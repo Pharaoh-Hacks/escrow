@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+
 import {
   Button,
   buttonVariants
@@ -60,7 +61,7 @@ export default function Home() {
           </div>
         </div>
       
-        {/* TODO: List products */}
+       
       </MaxWidthWrapper>
 
       <section className='border-t border-gray-200 bg-gray-50'>

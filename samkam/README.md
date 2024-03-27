@@ -67,3 +67,33 @@ npm add @payloadcms/richtext-slate @payloadcms/bundler-webpack @payloadcms/db-mo
 
 npm add -D nodemon
 
+## Add input components
+
+npx shadcn-ui@latest add input 
+
+npx shadcn-ui@latest add label
+
+## libraries for proper form handling
+
+npm add react-hook-form @hookform/resolvers zod sonner 
+
+{/* zod is a schemer validation library */}
+
+## Add tRPC library
+
+npm @trpc/client @trpc/next @trpc/react-query @trpc/server @tanstack/react-query
+
+//Allows maintenance of type safety in typescript through frontend and backend
+
+## Add resend
+
+npm add nodemailer
+
+npm -D add @types/nodemailer
+
+## Add dropdown
+npx shadcn-ui@latest add dropdown-menu
+
+## Add Escrow
+
+npm install escrow

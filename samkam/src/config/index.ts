@@ -1,43 +1,43 @@
 export const PRODUCT_CATEGORIES = [
     {
-        label: "UI Kits",
-        value: "ui_kits" as const,
+        label: "Electronics",
+        value: "electronics" as const,
         featured: [
             {
-                name: "Editor Picks",
+                name: "Electronic Picks",
                 href: "#",
-                imageSrc: "/nav/ui-kits/mixed.jpg",
+                imageSrc: "/nav/electronics/bestsellers.jpg",
             },
              {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/ui-kits/blue.jpg",
+                imageSrc: "/nav/electronics/new.jpg",
             },
               {
                 name: "Bestsellers",
                 href: "#",
-                imageSrc: "/nav/ui-kits/purple.jpg",
+                imageSrc: "/nav/electronics/picks.png",
             },
         ],
     },
      {
-        label: "Icons",
-        value: "icons" as const,
+        label: "Household-items",
+        value: "household-items" as const,
         featured: [
             {
-                name: "Favorite Icon Picks",
+                name: "Favorite Household-items Picks",
                 href: "#",
-                imageSrc: "/nav/icons/picks.jpg",
+                imageSrc: "/nav/household-items/picks.jpg",
             },
              {
                 name: "New Arrivals",
                 href: "#",
-                imageSrc: "/nav/icons/new.jpg",
+                imageSrc: "/nav/household-items/new.jpg",
             },
               {
-                name: "Bestselling Icons",
+                name: "Bestselling Household-items",
                 href: "#",
-                imageSrc: "/nav/icons/bestsellers.jpg",
+                imageSrc: "/nav/household-items/bestsellers.jpg",
             },
         ],
     },

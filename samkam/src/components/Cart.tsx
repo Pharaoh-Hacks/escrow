@@ -16,7 +16,7 @@ import { buttonVariants } from "./ui/button"
 import Image from "next/image"
 
 const Cart = () => {
-const itemCount = 0
+const itemCount = 1
 
     
     const fee = 1
@@ -82,11 +82,7 @@ const itemCount = 0
                                 className="relative mb-4 h-60 w-60 text-muted-foreground">
 
 
-                                <Image
-                                    src='/escrow-empty-cart.png'
-                                    fill
-                                    alt='empty shopping cart'    
-                             />
+                               
                             </div>
                             <div className="text-xl font-semibold">Your cart is empty</div>
                             <SheetTrigger asChild>
